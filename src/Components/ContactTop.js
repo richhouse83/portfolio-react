@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactTop = () => {
   return (
-    <div className="contact-top" id="contact-top">
+    <div className="contact-top hidden" id="contact-top">
       <p>
         <i className="fas fa-envelope-open"></i>{" "}
         <a href="mailto:rich@richhouse.co.uk">rich@richhouse.co.uk</a>

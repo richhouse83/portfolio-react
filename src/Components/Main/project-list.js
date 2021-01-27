@@ -50,6 +50,105 @@ const projects = [
     ),
     technologies: ["JavaScript", "HTML", "CSS", "MongoDb", "Express", "React"],
   },
+  {
+    title: "Sign Up Form Demo",
+    date: "January 2021",
+    github:
+      "https://github.com/richhouse83/richhouse83.github.io/blob/master/signup-form.html",
+    link: "https://richhouse83.github.io/signup-form.html",
+    imgsrc: "/images/sign-up.png",
+    imgalt: "still of the sign up demo form",
+    description: (
+      <p>
+        A demonstration of a sign up page, using reg ex validation, built using
+        the Bootstrap Framework. No data is collected
+      </p>
+    ),
+    technologies: ["JavaScript", "HTML", "CSS", "Bootstrap"],
+  },
+  {
+    title: "ask.Teacher",
+    date: "January 2021",
+    github: "https://github.com/richhouse83/vue-example",
+    link: "https://richhouse83.github.io/vue-example/",
+    imgsrc: "/images/ask-teacher.png",
+    imgalt: "still of the ask.Teacher app",
+    description: (
+      <p>
+        A demonstration of a question and answer system for remote learning,
+        built using Vue with no backend.
+      </p>
+    ),
+    technologies: ["JavaScript", "HTML", "CSS", "Vue"],
+  },
+  {
+    title: "The Roadie Cookbook",
+    date: "Q2 2020 (ongoing)",
+    github: "http://theroadiecookbook.com",
+    link: "http://theroadiecookbook.com",
+    imgsrc: "/images/trc1.jpeg",
+    imgalt: "still of theRoadieCookbook website",
+    description: (
+      <p>
+        A cookbook site built with Wordpress for a charity project being worked
+        on by myself and a few friends.
+      </p>
+    ),
+    technologies: ["JavaScript", "HTML", "WordPress"],
+  },
+  {
+    title: "Pong Clone",
+    date: "September 2020",
+    github: "https://github.com/richhouse83/pong",
+    imgsrc: "/images/pong.jpeg",
+    imgalt: "still of Pong Clone",
+    description: (
+      <p>
+        Written using Lua's LÖVE framework, this is a basic Pong game which
+        adapts it's difficulty as you win. Adapted from the CS50 Game Dev track
+      </p>
+    ),
+    technologies: ["Lua", "LÖVE"],
+  },
+  {
+    title: "Pokemon Battler CLI Game",
+    date: "January 2021",
+    github: "https://github.com/richhouse83/pokemon-battler-2",
+    imgsrc: "/images/pokemon-battler.png",
+    imgalt: "still of Pokemon Battler",
+    description: (
+      <p>
+        A text based Pokemon Battling game making use of Axios, Inquirer, and
+        the{" "}
+        <a href="https://pokeapi.co/" target="_blank" rel="noreferrer">
+          PokeAPI API
+        </a>
+      </p>
+    ),
+    technologies: ["JavaScript", "Axios", "Node.js", "Inquirer", "PokeAPI"],
+  },
+  {
+    title: "Bug Invaders",
+    date: "October 2020",
+    github: "https://github.com/richhouse83/bugInvaders",
+    imgsrc: "/images/buginvaders2.jpeg",
+    imgalt: "still of Bug Invaders",
+    description: (
+      <p>Space Invaders copy, extended from a Codecademy project.</p>
+    ),
+    technologies: ["JavaScript", "HTML", "Phaser.js"],
+  },
+  {
+    title: "VR Solar System",
+    date: "November 2020",
+    github:
+      "https://github.com/richhouse83/richhouse83.github.io/blob/master/solarsystem.html",
+    link: "https://richhouse83.github.io/solarsystem.html",
+    imgsrc: "/images/solarsystem.jpeg",
+    imgalt: "still of VR Solar System App",
+    description: <p>Solar System model built using A-Frame VR.</p>,
+    technologies: ["HTML", "A-Frame"],
+  },
 ];
 
 export default projects;
