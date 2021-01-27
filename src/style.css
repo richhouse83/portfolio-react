@@ -1,0 +1,323 @@
+* {
+  box-sizing: border-box;
+}
+#root,
+.app-container {
+  padding: 0;
+}
+html {
+  font-size: 32px;
+  color: gainsboro;
+}
+body {
+  margin: 0 auto;
+  background-image: url("./images/background\ website\ 1\ \ \ Zellox.gif");
+  background-attachment: fixed;
+  position: relative;
+  font-size: 0.5rem;
+  padding: 0;
+}
+div,
+section {
+  padding: 10px;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Fjalla One", sans-serif;
+}
+p,
+li {
+  font-family: "Cantarell", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: gainsboro;
+  transition: color 0.5s, font-size 0.5s;
+}
+a:hover {
+  color: rgb(128, 191, 255);
+}
+nav,
+.contact {
+  width: 100%;
+  height: 1.2rem;
+  background-color: snow;
+  color: slategray;
+  font-family: "Canterell", sans-serif;
+  position: fixed;
+  z-index: 10;
+}
+nav {
+  padding-top: 8px;
+}
+.contact-top {
+  width: 100%;
+  height: 1.2rem;
+  background-color: snow;
+  color: slategray;
+  font-family: "Canterell", sans-serif;
+  position: fixed;
+  top: 0;
+  text-align: right;
+  z-index: 9;
+  transition: top 300ms;
+}
+#contact-link {
+  cursor: pointer;
+  color: slategray;
+  transition: color 0.5s;
+}
+nav .brand {
+  text-align: left;
+  display: inline;
+  font-family: "Fjalla One", sans-serif;
+}
+nav .nav {
+  padding: 2px;
+  display: inline;
+  float: right;
+  text-align: right;
+}
+nav a,
+.contact a,
+.contact-top a {
+  color: slategray;
+}
+nav a:hover,
+.contact a:hover,
+.contact-top a:hover,
+#contact-link:hover {
+  color: rgb(128, 191, 255);
+}
+.contact {
+  padding-top: 5px;
+  bottom: 0px;
+  transition: height 0.3s, font-size 0.2s ease 0.2s, text-align 0.3s;
+}
+.contact p,
+.contact-top p {
+  display: inline;
+}
+.contact:hover {
+  height: 6.4rem;
+  text-align: center;
+  font-size: 0.5rem;
+}
+.contact:hover p {
+  display: block;
+  line-height: 0.3rem;
+}
+.mobile-contact {
+  visibility: hidden;
+  position: fixed;
+  z-index: 10;
+}
+.spin-hover:hover {
+  animation: spin 4s;
+}
+main {
+  position: relative;
+  padding-top: 6%;
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-areas:
+    "about experience experience"
+    "welcome experience experience"
+    "projects projects projects"
+    "projects projects projects";
+  grid-gap: 2px;
+  padding-bottom: 6%;
+}
+.welcome {
+  grid-area: welcome;
+  text-align: center;
+  font-family: "Fjalla One", sans-serif;
+}
+.welcome h1 {
+  font-size: 2rem;
+}
+.welcome:hover {
+  background-color: snow;
+  color: darkslategray;
+}
+.about {
+  grid-area: about;
+  background-color: rgba(107, 177, 177, 0.75);
+  border-top-left-radius: 12px;
+}
+.about:hover {
+  background-color: rgba(107, 177, 177, 0.9);
+}
+.experience {
+  grid-area: experience;
+  border-top-right-radius: 12px;
+  background-color: rgba(111, 120, 178, 0.75);
+}
+.experience:hover {
+  background-color: rgba(111, 120, 178, 0.9);
+}
+.experience-text li {
+  padding-bottom: 40px;
+}
+.projects {
+  grid-area: projects;
+  background-color: rgba(164, 94, 185, 0.75);
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+.projects:hover {
+  background-color: rgba(164, 94, 185, 0.9);
+}
+.project-item {
+  padding-bottom: 0.7rem;
+  border-top: 1px solid snow;
+}
+.date {
+  font-family: "Cantarell", sans-serif;
+}
+.demopics {
+  width: 15rem;
+  opacity: 0.8;
+  transition: 0.5s;
+}
+.tech-grid {
+  display: grid;
+  grid-template-areas: "tech tech tech";
+}
+.demopics:hover {
+  opacity: 1;
+}
+.about,
+.experience,
+.projects,
+.welcome {
+  transition: background-color 1.3s, color 1.3s ease 0.5s;
+}
+.githubLink {
+  font-size: 1rem;
+  padding-left: 2rem;
+}
+
+#spinner {
+  animation: spin 4s 5.5s infinite;
+}
+
+@media only screen and (min-width: 900px) and (min-device-width: 900px) {
+  main h4 a:hover {
+    border-bottom: 3px solid snow;
+  }
+  .contact a:hover {
+    border-bottom: 3px solid slategray;
+  }
+  nav a:hover,
+  .contact-top a:hover,
+  #contact-link:hover {
+    border-top: 3px solid slategray;
+  }
+  .demopics:hover {
+    width: 16rem;
+    transform: rotate(-4deg);
+    box-shadow: -6px 6px #2c2c2c;
+  }
+}
+@media only screen and (max-device-width: 900px), (max-width: 900px) {
+  html {
+    font-size: 2rem;
+  }
+  main {
+    width: 100%;
+    grid-template-areas:
+      "welcome"
+      "about"
+      "experience"
+      "projects";
+    grid-gap: 0px;
+    padding: 2rem 0 0 0;
+  }
+  .demopics {
+    width: 70%;
+  }
+  nav {
+    font-size: 1rem;
+    height: 2rem;
+  }
+  .contact,
+  .contact:hover,
+  .contact p,
+  .contact:hover p {
+    text-align: center;
+    height: 100%;
+    position: relative;
+    font-size: 1rem;
+    line-height: 0.4rem;
+    padding-top: 6px;
+    display: block;
+    margin-bottom: 0;
+  }
+  .welcome,
+  .about,
+  .experience,
+  .projects {
+    border-radius: 0px;
+    text-align: center;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 650px), (max-device-width: 650px) {
+  nav,
+  .contact-top {
+    visibility: hidden;
+    position: fixed;
+  }
+  main {
+    padding-top: 0px;
+  }
+  .welcome h1 {
+    font-size: 1.5rem;
+  }
+  .contact p,
+  .contact:hover p {
+    font-size: 0.8rem;
+  }
+  .tech-grid {
+    grid-template-areas: "tech tech";
+  }
+  .mobile-contact {
+    background-color: snow;
+    color: darkslategray;
+    border-radius: 100%;
+    margin-top: 5px;
+    visibility: visible;
+    top: 10px;
+    right: 35px;
+  }
+  .mobile-contact a {
+    color: darkslategray;
+    font-size: 1rem;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform-origin: center;
+    transform: rotate(0deg);
+  }
+  4% {
+    transform-origin: center;
+    transform: rotate(-18deg);
+  }
+  40%,
+  100% {
+    transform-origin: center;
+    transform: rotate(360deg);
+  }
+}
