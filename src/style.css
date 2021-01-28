@@ -21,6 +21,10 @@ div,
 section {
   padding: 10px;
 }
+section {
+  box-shadow: 0 0 15px rgb(90, 89, 89);
+  backdrop-filter: blur(3px);
+}
 h1,
 h2,
 h3,
@@ -89,6 +93,7 @@ nav a,
 .contact a,
 .contact-top a {
   color: slategray;
+  padding-right: 5px;
 }
 nav a:hover,
 .contact a:hover,
@@ -140,6 +145,8 @@ main {
   grid-area: welcome;
   text-align: center;
   font-family: "Fjalla One", sans-serif;
+  box-shadow: none;
+  border-left: rgba(90, 89, 89, 0.5) 1px solid;
 }
 .welcome h1 {
   font-size: 2rem;
@@ -180,8 +187,16 @@ main {
   padding-bottom: 0.7rem;
   border-top: 1px solid snow;
 }
-.date {
+.date,
+.sort-by {
   font-family: "Cantarell", sans-serif;
+}
+.sort-by,
+#sort-method {
+  text-align: center;
+}
+.sort-by select {
+  margin-left: 10px;
 }
 .demopics {
   width: 15rem;

@@ -13,6 +13,7 @@ const projects = [
       </p>
     ),
     technologies: ["JavaScript", "HTML", "CSS", "React", "Axios"],
+    tags: ["Featured", "Quick", "React", "JavaScript", "Games"],
   },
   {
     title: "Mario Clone using procedural generation of levels",
@@ -29,6 +30,7 @@ const projects = [
       </p>
     ),
     technologies: ["JavaScript", "HTML", "CSS", "Phaser.js"],
+    tags: ["Games", "JavaScript"],
   },
   {
     title: "GigSafe React site",
@@ -49,6 +51,7 @@ const projects = [
       </p>
     ),
     technologies: ["JavaScript", "HTML", "CSS", "MongoDb", "Express", "React"],
+    tags: ["React", "JavaScript", "Longer project"],
   },
   {
     title: "Sign Up Form Demo",
@@ -56,7 +59,7 @@ const projects = [
     github:
       "https://github.com/richhouse83/richhouse83.github.io/blob/master/signup-form.html",
     link: "https://richhouse83.github.io/signup-form.html",
-    imgsrc: "/images/sign-up.png",
+    imgsrc: "/images/sign-up2.png",
     imgalt: "still of the sign up demo form",
     description: (
       <p>
@@ -65,6 +68,7 @@ const projects = [
       </p>
     ),
     technologies: ["JavaScript", "HTML", "CSS", "Bootstrap"],
+    tags: ["Quick", "Bootstrap", "JavaScript", "CSS"],
   },
   {
     title: "ask.Teacher",
@@ -80,6 +84,7 @@ const projects = [
       </p>
     ),
     technologies: ["JavaScript", "HTML", "CSS", "Vue"],
+    tags: ["Quick", "Vue", "JavaScript"],
   },
   {
     title: "The Roadie Cookbook",
@@ -95,6 +100,7 @@ const projects = [
       </p>
     ),
     technologies: ["JavaScript", "HTML", "WordPress"],
+    tags: ["Longer Project", "HTML"],
   },
   {
     title: "Pong Clone",
@@ -109,6 +115,7 @@ const projects = [
       </p>
     ),
     technologies: ["Lua", "LÖVE"],
+    tags: ["Games", "Lua", "LÖVE"],
   },
   {
     title: "Pokemon Battler CLI Game",
@@ -126,10 +133,12 @@ const projects = [
       </p>
     ),
     technologies: ["JavaScript", "Axios", "Node.js", "Inquirer", "PokeAPI"],
+    tags: ["Featured", "Games", "JavaScript", "Node"],
   },
   {
     title: "Bug Invaders",
     date: "October 2020",
+    link: "https://richhouse83.github.io/bugInvaders/index.html",
     github: "https://github.com/richhouse83/bugInvaders",
     imgsrc: "/images/buginvaders2.jpeg",
     imgalt: "still of Bug Invaders",
@@ -137,6 +146,7 @@ const projects = [
       <p>Space Invaders copy, extended from a Codecademy project.</p>
     ),
     technologies: ["JavaScript", "HTML", "Phaser.js"],
+    tags: ["Games", "Quick", "JavaScript"],
   },
   {
     title: "VR Solar System",
@@ -148,6 +158,7 @@ const projects = [
     imgalt: "still of VR Solar System App",
     description: <p>Solar System model built using A-Frame VR.</p>,
     technologies: ["HTML", "A-Frame"],
+    tags: ["Quick", "VR"],
   },
 ];
 
