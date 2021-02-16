@@ -1,5 +1,29 @@
 const projects = [
   {
+    title: "Rheddit",
+    date: "February 2021",
+    link: "http://rheddit.surge.sh/",
+    github: "https://github.com/richhouse83/rheddit",
+    imgsrc: "/images/rheddit.png",
+    imgalt: "still of the rheddit app",
+    description: (
+      <p>
+        A full stack social media site, with the ability to create topics, post
+        and delete articles and comments, all handled in a RESTful api
+      </p>
+    ),
+    technologies: [
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "React",
+      "Axios",
+      "Express.js",
+      "PostgreSQL",
+    ],
+    tags: ["Featured", "Longer Project", "React", "JavaScript"],
+  },
+  {
     title: "Zoom Quiz Generator",
     date: "January 2021",
     link: "http://salty-comb.surge.sh/",
