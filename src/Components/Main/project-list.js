@@ -1,5 +1,37 @@
 const projects = [
   {
+    title: "c-AR-d",
+    date: "February 2021",
+    link: "https://lnkd.in/e5PQ6yn",
+    github: "https://github.com/richhouse83/c-ar-d",
+    imgsrc: "/images/c-ar-d.png",
+    imgalt: "still of the video presentation for c-AR-d",
+    description: (
+      <p>
+        A bespoke animated AR viewer which allows users to send personalised
+        birthday messages with a bit more pizzazz than your standard greeting
+        card. Recipients can view their AR birthday messages in the app or using
+        a browser on mobile or desktop to read the unique QR code. The video
+        message is then displayed in the bespoke animated AR viewer. Once sent,
+        the message is stored and can be viewed again and again using the QR
+        code. Developed within a team as the final project for the Northcoders
+        Coding Bootcamp.
+      </p>
+    ),
+    technologies: [
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "React",
+      "React Native",
+      "AWS",
+      "Lambda",
+      "A-Frame",
+      "AR.js",
+    ],
+    tags: ["Featured", "Longer Project", "React", "JavaScript"],
+  },
+  {
     title: "Rheddit",
     date: "February 2021",
     link: "http://rheddit.surge.sh/",
