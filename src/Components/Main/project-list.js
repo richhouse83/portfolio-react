@@ -56,6 +56,23 @@ const projects = [
     tags: ["Featured", "Longer Project", "React", "JavaScript"],
   },
   {
+    title: "Tetris Clone",
+    date: "March 2021",
+    link: "https://github.com/richhouse83/tetris-clone",
+    github: "https://github.com/richhouse83/tetris-clone",
+    imgsrc: "/images/tetris-clone.png",
+    imgalt: "still of the tetris-clone game",
+    description: (
+      <p>
+        A Tetris Clone built as a personal project to explore Gesture Controls
+        on React Native. Unfortunately coding this project this didn't make me
+        any better at playing it!
+      </p>
+    ),
+    technologies: ["JavaScript", "Expo", "React Native"],
+    tags: ["Longer Project", "JavaScript"],
+  },
+  {
     title: "Zoom Quiz Generator",
     date: "January 2021",
     link: "http://salty-comb.surge.sh/",
