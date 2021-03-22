@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio-react/static/css/main.f86174ba.chunk.css",
+    "main.js": "/portfolio-react/static/js/main.4bd8ef9c.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.4bd8ef9c.chunk.js.map",
+    "runtime-main.js": "/portfolio-react/static/js/runtime-main.5a63466c.js",
+    "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.5a63466c.js.map",
+    "static/js/2.8aa064cd.chunk.js": "/portfolio-react/static/js/2.8aa064cd.chunk.js",
+    "static/js/2.8aa064cd.chunk.js.map": "/portfolio-react/static/js/2.8aa064cd.chunk.js.map",
+    "static/js/3.5b0430fd.chunk.js": "/portfolio-react/static/js/3.5b0430fd.chunk.js",
+    "static/js/3.5b0430fd.chunk.js.map": "/portfolio-react/static/js/3.5b0430fd.chunk.js.map",
+    "index.html": "/portfolio-react/index.html",
+    "static/css/main.f86174ba.chunk.css.map": "/portfolio-react/static/css/main.f86174ba.chunk.css.map",
+    "static/js/2.8aa064cd.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.8aa064cd.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/portfolio-react/static/media/background website 1   Zellox.73c5d955.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5a63466c.js",
+    "static/js/2.8aa064cd.chunk.js",
+    "static/css/main.f86174ba.chunk.css",
+    "static/js/main.4bd8ef9c.chunk.js"
+  ]
+}
