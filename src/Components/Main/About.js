@@ -1,8 +1,8 @@
 import React from "react";
 
 const paras = [
-  ` I am a UK based Web Developer, with over 25 years of amateur experience,
-        finally taking the leap into the professional arena.`,
+  ` I am a UK based Web Developer. With over 25 years of amateur experience,
+        in 2021 I finally took the leap into the professional arena.`,
   `I've been playing with code since I learnt to type, and building
         websites since my Dad, who is a software engineer himself, installed our
         first modem.`,
