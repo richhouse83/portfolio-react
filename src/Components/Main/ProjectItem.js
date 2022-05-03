@@ -16,7 +16,7 @@ const ProjectItem = ({ project }) => {
         </p>
       </h4>
       <a href={project.link} target="_blank" rel="noreferrer">
-        <img className="demopics" src={project.imgsrc} alt={project.alt} />
+        <img className="demopics" src={'portfolio-react' + project.imgsrc} alt={project.alt} />
       </a>
       {project.description}
       <h5>Technologies Used</h5>
