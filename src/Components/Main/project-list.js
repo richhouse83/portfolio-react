@@ -4,7 +4,7 @@ const projects = [
     date: "February 2021",
     link: "https://lnkd.in/e5PQ6yn",
     github: "https://github.com/richhouse83/c-ar-d",
-    imgsrc: "/images/c-ar-d.png",
+    imgsrc: "/portfolio-react/images/c-ar-d.png",
     imgalt: "still of the video presentation for c-AR-d",
     description: (
       <p>
@@ -36,7 +36,7 @@ const projects = [
     date: "February 2021",
     link: "http://rheddit.surge.sh/",
     github: "https://github.com/richhouse83/rheddit",
-    imgsrc: "/images/rheddit.png",
+    imgsrc: "/portfolio-react/images/rheddit.png",
     imgalt: "still of the rheddit app",
     description: (
       <p>
@@ -60,7 +60,7 @@ const projects = [
     date: "March 2021",
     link: "https://github.com/richhouse83/tetris-clone",
     github: "https://github.com/richhouse83/tetris-clone",
-    imgsrc: "/images/tetris-clone.png",
+    imgsrc: "/portfolio-react/images/tetris-clone.png",
     imgalt: "still of the tetris-clone game",
     description: (
       <p>
@@ -77,7 +77,7 @@ const projects = [
     date: "January 2021",
     link: "http://salty-comb.surge.sh/",
     github: "https://github.com/richhouse83/zoom-quiz",
-    imgsrc: "/images/zoom-quiz.png",
+    imgsrc: "/portfolio-react/images/zoom-quiz.png",
     imgalt: "still of the zoom quiz app",
     description: (
       <p>
@@ -93,7 +93,7 @@ const projects = [
     date: "Q4 2020",
     link: "https://richhouse83.github.io/marioClone/",
     github: "https://github.com/richhouse83/marioClone",
-    imgsrc: "/images/marioclone.jpeg",
+    imgsrc: "/portfolio-react/images/marioclone.jpeg",
     imgalt: "still of the mario clone",
     description: (
       <p>
@@ -110,7 +110,7 @@ const projects = [
     date: "September 2020",
     github:
       "https://github.com/richhouse83/studyProjects/tree/main/covidGig/gigsafe",
-    imgsrc: "/images/gigsafe.jpeg",
+    imgsrc: "/portfolio-react/images/gigsafe.jpeg",
     imgalt: "still of the gigsafe app",
     description: (
       <p>
@@ -132,7 +132,7 @@ const projects = [
     github:
       "https://github.com/richhouse83/richhouse83.github.io/blob/master/signup-form.html",
     link: "https://richhouse83.github.io/signup-form.html",
-    imgsrc: "/images/sign-up2.png",
+    imgsrc: "/portfolio-react/images/sign-up2.png",
     imgalt: "still of the sign up demo form",
     description: (
       <p>
@@ -148,7 +148,7 @@ const projects = [
     date: "January 2021",
     github: "https://github.com/richhouse83/vue-example",
     link: "https://richhouse83.github.io/vue-example/",
-    imgsrc: "/images/ask-teacher.png",
+    imgsrc: "/portfolio-react/images/ask-teacher.png",
     imgalt: "still of the ask.Teacher app",
     description: (
       <p>
@@ -164,7 +164,7 @@ const projects = [
     date: "Q2 2020 (ongoing)",
     github: "http://theroadiecookbook.com",
     link: "http://theroadiecookbook.com",
-    imgsrc: "/images/trc1.jpeg",
+    imgsrc: "/portfolio-react/images/trc1.jpeg",
     imgalt: "still of theRoadieCookbook website",
     description: (
       <p>
@@ -179,7 +179,7 @@ const projects = [
     title: "Pong Clone",
     date: "September 2020",
     github: "https://github.com/richhouse83/pong",
-    imgsrc: "/images/pong.jpeg",
+    imgsrc: "/portfolio-react/images/pong.jpeg",
     imgalt: "still of Pong Clone",
     description: (
       <p>
@@ -194,7 +194,7 @@ const projects = [
     title: "Pokemon Battler CLI Game",
     date: "January 2021",
     github: "https://github.com/richhouse83/pokemon-battler-2",
-    imgsrc: "/images/pokemon-battler.png",
+    imgsrc: "/portfolio-react/images/pokemon-battler.png",
     imgalt: "still of Pokemon Battler",
     description: (
       <p>
@@ -213,7 +213,7 @@ const projects = [
     date: "October 2020",
     link: "https://richhouse83.github.io/bugInvaders/index.html",
     github: "https://github.com/richhouse83/bugInvaders",
-    imgsrc: "/images/buginvaders2.jpeg",
+    imgsrc: "/portfolio-react/images/buginvaders2.jpeg",
     imgalt: "still of Bug Invaders",
     description: (
       <p>Space Invaders copy, extended from a Codecademy project.</p>
@@ -227,7 +227,7 @@ const projects = [
     github:
       "https://github.com/richhouse83/richhouse83.github.io/blob/master/solarsystem.html",
     link: "https://richhouse83.github.io/solarsystem.html",
-    imgsrc: "/images/solarsystem.jpeg",
+    imgsrc: "/portfolio-react/images/solarsystem.jpeg",
     imgalt: "still of VR Solar System App",
     description: <p>Solar System model built using A-Frame VR.</p>,
     technologies: ["HTML", "A-Frame"],
